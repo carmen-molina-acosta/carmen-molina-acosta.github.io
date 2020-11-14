@@ -113,3 +113,9 @@ video {
   background-color: #fff;
   border: 1px solid #fff;
 }
+
+@media (max-width: 770px) {
+  .hide {
+    display: none;
+  }
+}
