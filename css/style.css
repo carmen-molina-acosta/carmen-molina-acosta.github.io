@@ -114,7 +114,7 @@ video {
   border: 1px solid #fff;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 540px) {
   .hide {
     display: none;
   }
