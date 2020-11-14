@@ -16,11 +16,6 @@ h4, h2 {
   font-weight: bold;
 }
 
-.card-columns,{
-  padding-right: 20px;
-  padding-left: 20px; 
-}
-
 body {
   height: 100%;
   background-color: #333;
@@ -32,6 +27,12 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
+
+.card-columns {
+  padding-right: 20px;
+  padding-left: 20px; 
+}
+
 
 .navbar {
   margin-bottom: 10px;
