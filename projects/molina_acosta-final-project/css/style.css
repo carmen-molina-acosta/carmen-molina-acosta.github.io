@@ -1,0 +1,105 @@
+.dark {
+	background-color: black;
+	color: white;
+}
+
+.new-section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.light {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.article-text{
+	max-width: 600px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2 {
+	font-family: 'Merriweather', serif;
+}
+
+h2{
+	color: yellow;
+}
+.caption {
+	font-style: italic;
+	font-size: 10px;
+	text-align: right;
+}
+
+.dropcap {
+	color: yellow;
+	float: left;
+	font-size: 75px;
+	font-weight: 800;
+	line-height: 60px;
+	padding: 4px 8px 3px 0;
+}
+
+.juxtapose, .chart, .riots {
+	margin: 0 auto;
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.show-small-phone {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.timeline, .hide{
+		display: none;
+	}
+
+	.hidden {
+		display: block;
+	}
+
+	.chart, .juxtapose  {
+		max-width: 90vw;
+	}
+
+	.chart{ 
+		height: auto;
+	}
+}
+
+@media (max-width: 540px) {
+	.hidden-small-phone {
+		display: none;
+	}
+}
+
+@media (max-width: 414px) {
+	.hidden-smallest {
+		display: none;
+	}
+
+	.change-in-smallest{
+		padding-top: 0px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.riots {
+		max-height: 400px;
+	}
+	#riots {
+		text-align: center;
+	}
+}
+
+@media (min-width: 960px) {
+	
+}
